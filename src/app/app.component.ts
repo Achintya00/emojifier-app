@@ -28,7 +28,7 @@ export class AppComponent implements OnInit {
 
   result: any;
   ngOnInit(): void {}
-  // on second click of the button the emoji box would dissapear
+  // on even click of the button the emoji box would dissapear
   clickMe() {
     this.count++;
     if (this.count % 2 !== 0) {
